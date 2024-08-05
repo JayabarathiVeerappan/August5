@@ -13,6 +13,9 @@ public class Employee {
 	private void empPhone() {
 		System.out.println("emp phone is 9087456321");
 	}
+	private void empBloodGroup() {
+		System.out.println("Emp Blood Group is B+");
+	}
 	private void empEmail() {
 		System.out.println("emp email is jaya123@gmail.com");
 	}
@@ -27,5 +30,6 @@ public static void main(String[] args) {
 	e.empPhone();
 	e.empEmail();
 	e.empAddress();
+	e.empBloodGroup();
 }
 }
